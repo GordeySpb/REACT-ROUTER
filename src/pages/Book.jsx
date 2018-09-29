@@ -1,9 +1,9 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
-import books from '../data/books';
 
-const Book = () => {
-  const book = books.find(item => item.slug === 'learning-javascript');
+const Book = ({ match, data }) => {
+  const book = data.find(item => item.slug === match.params.book);
 
   return (
     <main id="book">
@@ -28,6 +28,10 @@ const Book = () => {
       </div>
     </main>
   );
+};
+
+Book.propTypes = {
+  match: PropTypes.objectOf(PropTypes.object).isRequired,
 };
 
 export default Book;

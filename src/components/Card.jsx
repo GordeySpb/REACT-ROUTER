@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import PropTypes from 'prop-types';
 
 const Card = ({ book }) => (
@@ -18,7 +19,7 @@ const Card = ({ book }) => (
     </div>
 
     <section className="mdc-card__actions">
-      <a href={`/books/${book.topic}/${book.slug}`} className="mdc-button mdc-card__action">Подробнее</a>
+      <Link to={`/books/${book.topic}/${book.slug}`} className="mdc-button mdc-card__action">Подробнее</Link>
     </section>
   </div>
 );
