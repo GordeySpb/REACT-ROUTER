@@ -21,6 +21,12 @@ body {
 
 .mdc-tab-bar {
     margin: 0;
+    display: flex;
+}
+
+.mdc-tab {
+  color: #e5dcdc;
+  font-size: 18px;
 }
 
 .content {

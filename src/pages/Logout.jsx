@@ -1,13 +1,19 @@
-import React, { Component } from 'react';
+import { Component } from 'react';
+import PropTypes from 'prop-types';
 
 class Logout extends Component {
-    componentWillMount() {
-        this.props.onLogout();
-    }
+  componentWillMount() {
+    const { onLogout } = this.props;
+    onLogout();
+  }
 
-    render() {
-        return null;
-    }
+  render() {
+    return null;
+  }
 }
+
+Logout.propTypes = {
+  onLogout: PropTypes.func.isRequired,
+};
 
 export default Logout;
