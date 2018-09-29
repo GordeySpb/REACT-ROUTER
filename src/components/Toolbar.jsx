@@ -1,6 +1,8 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import PropTypes from 'prop-types';
+
+import ToolBarLink from './ToolBarLink';
+
 
 const Toolbar = ({ user }) => (
   <header className="mdc-toolbar">
@@ -11,12 +13,12 @@ const Toolbar = ({ user }) => (
 
       <section className="mdc-toolbar__section mdc-toolbar__section--align-end">
         <nav className="mdc-tab-bar">
-          <Link to="/" className="mdc-tab">Главная</Link>
-          <Link to="/about" className="mdc-tab">О проекте</Link>
-          <Link to="/books" className="mdc-tab">Книги</Link>
+          <ToolBarLink exact to="/" className="mdc-tab">Главная</ToolBarLink>
+          <ToolBarLink to="/about" className="mdc-tab">О проекте</ToolBarLink>
+          <ToolBarLink to="/books" className="mdc-tab">Книги</ToolBarLink>
           {user
-            ? <Link to="/logout" className="mdc-tab">Выйти</Link>
-            : <Link to="/login" className="mdc-tab">Войти</Link>
+            ? <ToolBarLink to="/logout" className="mdc-tab">Выйти</ToolBarLink>
+            : <ToolBarLink to="/login" className="mdc-tab">Войти</ToolBarLink>
           }
         </nav>
       </section>
