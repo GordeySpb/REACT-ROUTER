@@ -2,9 +2,8 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 
 class Login extends Component {
-  onSubmit(event) {
+  onSubmit = (event) => {
     event.preventDefault();
-
     const { onLogin } = this.props;
 
     onLogin({
