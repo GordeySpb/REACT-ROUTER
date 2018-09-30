@@ -1,6 +1,11 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
+/**
+ *Создает Book
+ *@param {Object} param.match обьект соответствия
+ *@param {Array} param.data массив книг
+ */
 
 const Book = ({ match, data }) => {
   const book = data.find(item => item.slug === match.params.book);
@@ -32,6 +37,7 @@ const Book = ({ match, data }) => {
 
 Book.propTypes = {
   match: PropTypes.objectOf(PropTypes.object).isRequired,
+  data: PropTypes.arrayOf(PropTypes.object).isRequired,
 };
 
 export default Book;

@@ -1,5 +1,6 @@
 [
-  {
+  { 
+    "id": 1,
     "slug": "learning-javascript",
     "title": "Learning JavaScript",
     "author": "Ethan Brown",
@@ -10,7 +11,8 @@
     "description": "This is an exciting time to learn JavaScript. Now that the latest JavaScript specification—ECMAScript 6.0 (ES6)—has been finalized, learning how to develop high-quality applications with this language is easier and more satisfying than ever. This practical book takes programmers (amateurs and pros alike) on a no-nonsense tour of ES6, along with some related tools and techniques. Author Ethan Brown (Web Development with Node and Express) not only guides you through simple and straightforward topics (variables, control flow, arrays), but also covers complex concepts such as functional and asynchronous programming. You’ll learn how to create powerful and responsive web applications on the client, or with Node.js on the server.",
     "cover": "learning-javascript.jpg"
   },
-  {
+  { 
+    "id": 2,
     "slug": "secrets-of-the-javascript-ninja",
     "title": "Secrets of the JavaScript Ninja",
     "author": "John Resig, Bear Bibeault, Josip Maras",
@@ -21,7 +23,8 @@
     "description": "Secrets of the JavaScript Ninja, Second Edition uses practical examples to clearly illustrate each core concept and technique. This completely revised edition shows you how to master key JavaScript concepts such as functions, closures, objects, prototypes, and promises. It covers APIs such as the DOM, events, and timers. You’ll discover best practice techniques such as testing, and cross-browser development, all taught from the perspective of skilled JavaScript practitioners.",
     "cover": "secrets-of-the-javascript-ninja.png"
   },
-  {
+  { 
+    "id": 3,
     "slug": "understanding-es6",
     "title": "Understanding ECMAScript 6",
     "author": "Nicholas C. Zakas",
@@ -33,6 +36,7 @@
     "cover": "understanding-es6.png"
   },
   {
+    "id": 4,
     "slug": "learning-react",
     "title": "Learning React",
     "author": "Alex Banks, Eve Porcello",
@@ -44,6 +48,7 @@
     "cover": "learning-react.jpg"
   },
   {
+    "id": 5,
     "slug": "fullstack-react",
     "title": "Fullstack React",
     "author": "Anthony Accomazzo, Ari Lerner",
@@ -55,6 +60,7 @@
     "cover": "fullstack-react.png"
   },
   {
+    "id": 6,
     "slug": "pro-react",
     "title": "Pro React",
     "author": "Cassio de Sousa Antonio",
@@ -65,7 +71,8 @@
     "description": "Pro React teaches you how to successfully structure increasingly complex front-end applications and interfaces. This book explores the React library in depth, as well as detailing additional tools and libraries in the React ecosystem, enabling you to create complete, complex applications. You will learn how to use React completely, and learn best practices for creating interfaces in a composable way. You will also cover additional tools and libraries in the React ecosystem (such as React Router and Flux architecture). Each topic is covered clearly and concisely and is packed with the details you need to learn to be truly effective. The most important features are given no-nonsense, in-depth treatment, and every chapter details common problems and how to avoid them.",
     "cover": "pro-react.png"
   },
-  {
+  { 
+    "id": 7,
     "slug": "ng-book-2",
     "title": "ng-book 2",
     "author": "Ari Lerner Felipe Coury",
@@ -77,6 +84,7 @@
     "cover": "ng-book-2.png"
   },
   {
+    "id": 8,
     "slug": "pro-angular",
     "title": "Pro Angular",
     "author": "Adam Freeman",
@@ -87,7 +95,8 @@
     "description": "Get the most from Angular 2, the leading framework for building dynamic JavaScript applications. Best-selling author Adam Freeman begins by describing the MVC pattern and the benefits it can offer and then shows you how to use Angular in your projects, starting from the nuts-and-bolts and building up to the most advanced and sophisticated features, going in-depth to give you the knowledge you need. Each topic is covered clearly and concisely and is packed with the details you need to learn to be truly effective. The most important features are given a no-nonsense in-depth treatment and chapters include common problems and details of how to avoid them.",
     "cover": "pro-angular.png"
   },
-  {
+  { 
+    "id": 9,
     "slug": "angular-in-action",
     "title": "Angular in Action",
     "author": "Jeremy Wilken",

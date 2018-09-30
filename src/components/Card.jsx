@@ -2,6 +2,10 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import PropTypes from 'prop-types';
 
+/**
+ *Компонент Card
+ * @param {Array} param.book массив с книгами
+ */
 const Card = ({ book }) => (
   <div className="mdc-card">
     <div className="mdc-card__horizontal-block">
@@ -17,7 +21,6 @@ const Card = ({ book }) => (
         </p>
       </section>
     </div>
-
     <section className="mdc-card__actions">
       <Link to={`/books/${book.topic}/${book.slug}`} className="mdc-button mdc-card__action">Подробнее</Link>
     </section>

@@ -1,5 +1,11 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
+import PropTypes from 'prop-types';
+
+/**
+ *Создает Sidenav
+ *@param {Array} param.topics массив с подразделами
+ */
 
 const Sidenav = ({ topics }) => (
   <aside className="mdc-permanent-drawer">
@@ -18,5 +24,9 @@ const Sidenav = ({ topics }) => (
     </nav>
   </aside>
 );
+
+Sidenav.propTypes = {
+  topics: PropTypes.arrayOf(PropTypes.object).isRequired,
+};
 
 export default Sidenav;

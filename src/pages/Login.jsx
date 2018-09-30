@@ -1,8 +1,18 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 
+/**
+ *Создает Login
+ *@param {Function} param.onLogin функция входа
+ */
 class Login extends Component {
-  onSubmit = (event) => {
+  constructor(props) {
+    super(props);
+
+    this.onSubmit = this.onSubmit.bind(this);
+  }
+
+  onSubmit(event) {
     event.preventDefault();
     const { onLogin } = this.props;
 

@@ -3,7 +3,10 @@ import PropTypes from 'prop-types';
 
 import ToolBarLink from './ToolBarLink';
 
-
+/**
+ *Создает Toolbar
+ *@param {Object} param.user пользователь
+ */
 const Toolbar = ({ user }) => (
   <header className="mdc-toolbar">
     <div className="mdc-toolbar__row">
