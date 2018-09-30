@@ -30,7 +30,11 @@ const Toolbar = ({ user }) => (
 );
 
 Toolbar.propTypes = {
-  user: PropTypes.arrayOf(PropTypes.object).isRequired,
+  user: PropTypes.arrayOf(PropTypes.object),
+};
+
+Toolbar.defaultProps = {
+  user: PropTypes.arrayOf(PropTypes.object),
 };
 
 export default Toolbar;

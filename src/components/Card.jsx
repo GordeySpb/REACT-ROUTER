@@ -28,7 +28,7 @@ const Card = ({ book }) => (
 );
 
 Card.propTypes = {
-  book: PropTypes.arrayOf(PropTypes.object).isRequired,
+  book: PropTypes.arrayOf(PropTypes.array).isRequired,
 };
 
 export default Card;

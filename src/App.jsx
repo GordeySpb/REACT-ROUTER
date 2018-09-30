@@ -17,7 +17,7 @@ import NotFound from './pages/NotFound';
 import Book from './pages/Book';
 
 /**
- *@param {Object} param.history обьект хистори
+ *@param {Number} param.history обьект хистори
  *@param {Array} param.books массив книг
  *@param {Array} param.topics массив тем
  */
@@ -68,7 +68,7 @@ class App extends React.Component {
 }
 
 App.propTypes = {
-  history: PropTypes.objectOf(PropTypes.object).isRequired,
+  history: PropTypes.number.isRequired,
   topics: PropTypes.arrayOf(PropTypes.object).isRequired,
   books: PropTypes.arrayOf(PropTypes.object).isRequired,
 };
